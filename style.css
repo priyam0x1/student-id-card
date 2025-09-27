@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body{
+    background-color: #1B263B;
+}
+
+.mainid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardborder{
+    height: 530px;
+    width: 350px;
+    background-color: #023047;
+    border: 2px double transparent;
+    border-radius: 10px;
+    display: Block;
+    margin-top: 50px;
+}
+
+.cardborder:hover {
+    border: 3px solid white;
+}
+
+.picback{
+    height: 100px;
+    width: 350px;
+    background-color: #FFB703;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    display: flex;
+} 
+
+.bulogo{
+    height: 80px;
+    width: 80px;
+    background-image: url("bu_logo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #0D1B2A;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.buName{
+    margin-left: 5px;
+    margin-top: 30px;
+    color: #023047;
+    text-decoration: none;
+}
+
+.profile{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("My_Passport.jpeg");
+    background-size: cover;
+    border: 3px solid white;
+    margin-top: 20px;
+    margin-left: 90px;
+    display: block;
+}
+
+.profile:hover{
+    border: 3px solid #FFB703;
+}
+
+#myname{
+    color:aliceblue;
+    margin-left: 85px;
+    text-decoration: none;
+}
+
+.myname{
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+
+.bottomback{
+    height: 187.5px;
+    width: 350px;
+    background-color: #FFB703;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-top: 7px;
+}
+
+.transparent-txt{
+    color: transparent;
+}
+
+h3{
+    font-size: large;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.mail{
+    text-decoration: none;
+    color: black;
+}
+
+/* Animation */
+
+/* .loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid red;
+    border-top-color: white;
+    animation-name: spinAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
