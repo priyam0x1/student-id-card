@@ -8,6 +8,6 @@ Shradha Khapra
 Priyam Pratim
 
 # Student 2
-Chandrama
+Hritisman
 
 
